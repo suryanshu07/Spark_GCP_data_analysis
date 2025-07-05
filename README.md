@@ -1,18 +1,14 @@
-# Spark_GCP_data_engineering
+# Spark_data_engineering
 The project is built to integrate GCP, Spark, Databricks and create an eco system where big data analysis is feasible.
 
 Dataset and GCP
-An open source dataset is used for analysis and is uploaded on Google cloud Storage (GCS). The dataset is uploaded via difference methods.
-1. Directly from UI by creating a bucket and uploading the file.
-2. Upload via gsutil (CLI method)
-3. Via python programatically, with the use of google-cloud-storage library.
+An open source dataset is used for analysis and is uploaded on Amazon S3. 
 
 Databricks and Spark:
 In order to focus on main functionality of spark databricks is used as a tool.
 1. Databricks is used for Apache Spark because it makes Spark easier to use, manage, and scale, especially for big data and machine learning workflows.
 2. Databricks offers managed Spark Cluster hence no setup needed.
 3. Databricks clusters scale up/down automatically based on workload. It also supports auto-shutdown, saving costs when you're not using resources.
-4. Reads/writes from AWS S3, Azure Blob, or Google Cloud Storage (GCS) with minimal setup. Also supports Delta Lake (Databricks' own format for faster, reliable analytics on Spark).
 
 Project:
 The analysis does a thorough study of taxi dataset to identify key trends and insights about durations, fare, peak hours, and popular pickup and drop-off areas.
